@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quicklist - lista de compras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="images/Logo.png">
+            <h1>quicklist</h1>
+        </div>
+        <header>
+            <a href="#"><- Voltar</a>
+            <h1>Compras da semana</h1>
+        </header>
+        <div class="add-item">
+            <div class="input">
+                <input type="text" placeholder="Adicione um novo item">
+            </div>
+            <a href="#">Adicionar item</a>
+        </div>
+        <div class="list">
+            <div class="items">
+                <input type="radio" name="radio" id="radio">
+                <div class="item">
+                    <p>Pão de forma</p>
+                </div>
+                <img src="images/Delete.png">
+            </div>
+            <div class="items">
+                <input type="radio" name="radio" id="radio">
+                <div class="item">
+                    <p>Café preto</p>
+                </div>
+                <img src="images/Delete.png">
+            </div>
+            <div class="items">
+                <input type="radio" name="radio" id="radio">
+                <div class="item">
+                    <p>Suco de laranja</p>
+                </div>
+                <img src="images/Delete.png">
+            </div>
+            <div class="items">
+                <input type="radio" name="radio" id="radio">
+                <div class="item">
+                    <p>Bolacha</p>
+                </div>
+                <img src="images/Delete.png">
+            </div>
+        </div>
+        <div class="alert-container">
+            <div class="alert">
+                <img src="images/warning.png">
+                <p>O item foi removido da lista</p>
+                <img src="images/X.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
